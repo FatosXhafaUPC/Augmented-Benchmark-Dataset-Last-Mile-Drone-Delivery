@@ -38,8 +38,13 @@ print(meta)
 
 ## Citation
 
+If you use this dataset or code, please cite:
+
 **Augmented Dataset:**
 Xhafa, F. (2026). Augmented Benchmark Dataset for Last-Mile Drone Delivery (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18215032
 
-**Original Data:**
+**Code Repository:**
+Xhafa, F. (2026). Augmented Benchmark Dataset Source Code. GitHub. https://github.com/FatosXhafaUPC/Augmented-Benchmark-Dataset-Last-Mile-Drone-Delivery
+
+**Original Data Source:**
 Cheng, C., Adulyasak, Y., Rousseau, L.-M. (2020). Drone routing with energy function: Formulation and exact algorithm. *Transportation Research Part B: Methodological*, 139, 364–387. https://doi.org/10.1016/j.trb.2020.06.011
