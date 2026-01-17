@@ -37,4 +37,9 @@ print(meta)
 ```
 
 ## Citation
-1. **Original Data:** Cheng, C., Adulyasak, Y., & Rousseau, L. M. (2018). *Robust drone delivery with weather information*.
+
+**Augmented Dataset:**
+Xhafa, F. (2026). Augmented Benchmark Dataset for Last-Mile Drone Delivery (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18215032
+
+**Original Data:**
+Cheng, C., Adulyasak, Y., Rousseau, L.-M. (2020). Drone routing with energy function: Formulation and exact algorithm. *Transportation Research Part B: Methodological*, 139, 364–387. https://doi.org/10.1016/j.trb.2020.06.011
