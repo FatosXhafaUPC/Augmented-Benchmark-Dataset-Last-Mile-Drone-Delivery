@@ -1,3 +1,4 @@
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18215032-blue)](https://doi.org/10.5281/zenodo.18215032)
 # Augmented Benchmark Dataset for Last-Mile Drone Delivery
 
 This repository contains an augmented version of the standard benchmark dataset (Cheng et al., 2018) for Drone Routing Problems (DRP) and Vehicle Routing Problems with Drones (VRPD).
@@ -36,4 +37,14 @@ print(meta)
 ```
 
 ## Citation
-1. **Original Data:** Cheng, C., Adulyasak, Y., & Rousseau, L. M. (2018). *Robust drone delivery with weather information*.
+
+If you use this dataset or code, please cite:
+
+**Augmented Dataset:**
+Xhafa, F. (2026). Augmented Benchmark Dataset for Last-Mile Drone Delivery (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18215032
+
+**Code Repository:**
+Xhafa, F. (2026). Augmented Benchmark Dataset Source Code. GitHub. https://github.com/FatosXhafaUPC/Augmented-Benchmark-Dataset-Last-Mile-Drone-Delivery
+
+**Original Data Source:**
+Cheng, C., Adulyasak, Y., Rousseau, L.-M. (2020). Drone routing with energy function: Formulation and exact algorithm. *Transportation Research Part B: Methodological*, 139, 364–387. https://doi.org/10.1016/j.trb.2020.06.011
