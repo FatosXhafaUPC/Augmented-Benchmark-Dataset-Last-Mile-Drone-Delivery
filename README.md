@@ -1,0 +1,39 @@
+# Augmented Benchmark Dataset for Last-Mile Drone Delivery
+
+This repository contains an augmented version of the standard benchmark dataset (Cheng et al., 2018) for Drone Routing Problems (DRP) and Vehicle Routing Problems with Drones (VRPD).
+
+The dataset has been enhanced with **operational physics parameters** to support energy-aware optimization and realistic weather scenarios.
+
+## Dataset Structure
+
+The repository is organized as follows:
+- **`original_data/`**: The original instances from Cheng et al. (Type 1 and Type 2).
+- **`augmented_data/`**: The processed instances containing 5 additional columns for operational limits.
+- **`scripts/`**: Python scripts used to generate the data and parse it.
+
+## Augmentation Details
+
+For every instance, we have appended the following parameters as new columns (tab-separated):
+
+| Parameter | Description | Value |
+| :--- | :--- | :--- |
+| `MIN_CRUISE_SPEED_MS` | Minimum safe flight speed | 10.0 m/s |
+| `MAX_CRUISE_SPEED_MS` | Maximum safe flight speed | 25.0 m/s |
+| `VERTICAL_SPEED_MS` | Speed for takeoff/landing | 0.5 m/s |
+| `WIND_SPEED_UNIFORM_MS` | Wind speed sampled from Uniform[3, 8] | *Instance Specific* |
+| `WIND_SPEED_RAYLEIGH_MS` | Wind speed sampled from Rayleigh (Barcelona) | *Instance Specific* |
+
+**Reproducibility Note:** The wind values are generated using a deterministic seed based on the MD5 hash of the filename. This ensures that `Set_A1_Cust_10_1.txt` always contains the exact same wind values.
+
+## Usage (Python)
+
+```python
+from scripts.data_utils import parse_augmented_instance
+
+meta, nodes = parse_augmented_instance("augmented_data/Type_1/Set_A1_Cust_10_1.txt")
+print(meta)
+# {'CustNum': 10, 'DroneNum': 2}
+```
+
+## Citation
+1. **Original Data:** Cheng, C., Adulyasak, Y., & Rousseau, L. M. (2018). *Robust drone delivery with weather information*.
