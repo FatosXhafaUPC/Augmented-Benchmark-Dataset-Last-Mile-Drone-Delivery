@@ -9,7 +9,7 @@ The dataset has been enhanced with **operational physics parameters** to support
 
 The repository is organized as follows:
 - **`original_data/`**: The original instances from Cheng et al. 2020 (Type 1 and Type 2).
-- **`augmented_data/`**: The processed instances containing 5 additional columns for operational limits.
+- **`augmented_data/`**: The processed instances containing 5 additional columns for operational limits (organized as originally in Type 1 and Type 2).
 - **`scripts/`**: Python scripts used to generate the data and parse it.
 
 ## Augmentation Details
