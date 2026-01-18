@@ -3,7 +3,7 @@
 
 This repository contains an augmented version of the standard benchmark dataset (Cheng et al., 2020) for Drone Routing Problems (DRP) and Vehicle Routing Problems with Drones (VRPD).
 
-The dataset has been enhanced with **operational physics parameters** to support energy-aware optimization and realistic weather scenarios using data from City of Barcelona.
+The dataset has been enhanced with **operational physics parameters** to support energy-aware optimization and realistic weather scenarios using real data from City of Barcelona.
 
 ## Dataset Structure
 
