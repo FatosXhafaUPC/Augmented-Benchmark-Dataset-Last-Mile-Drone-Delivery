@@ -1,5 +1,5 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18215032-blue)](https://doi.org/10.5281/zenodo.18215032)
-# Augmented Benchmark Dataset for Single-Truck, Multiple Drones Last-Mile Delivery
+# Augmented Benchmark Dataset for Single-Truck Multiple Drones Last-Mile Delivery
 
 This repository contains an augmented version of the standard benchmark dataset (Cheng et al., 2018) for Drone Routing Problems (DRP) and Vehicle Routing Problems with Drones (VRPD).
 
