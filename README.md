@@ -1,14 +1,14 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18215032-blue)](https://doi.org/10.5281/zenodo.18215032)
 # Augmented Benchmark Dataset for Single-Truck Multiple Drones Last-Mile Delivery
 
-This repository contains an augmented version of the standard benchmark dataset (Cheng et al., 2018) for Drone Routing Problems (DRP) and Vehicle Routing Problems with Drones (VRPD).
+This repository contains an augmented version of the standard benchmark dataset (Cheng et al., 2020) for Drone Routing Problems (DRP) and Vehicle Routing Problems with Drones (VRPD).
 
 The dataset has been enhanced with **operational physics parameters** to support energy-aware optimization and realistic weather scenarios using data from City of Barcelona.
 
 ## Dataset Structure
 
 The repository is organized as follows:
-- **`original_data/`**: The original instances from Cheng et al. (Type 1 and Type 2).
+- **`original_data/`**: The original instances from Cheng et al. 2020 (Type 1 and Type 2).
 - **`augmented_data/`**: The processed instances containing 5 additional columns for operational limits.
 - **`scripts/`**: Python scripts used to generate the data and parse it.
 
